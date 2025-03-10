@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <form action="#" method="post" name="contact_form">
+        <ul class="form-wrapper">
+            <li class="form-header">
+                <h2>Contact Us</h2>
+                <span class="required_notification">* Denotes Required Field</span>
+            </li>
+            <li class="form-row">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required>
+            </li>
+            <li class="form-row">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="john.doe@example.com" required>
+                <span class="form_hint">Proper format "name@domain.com"</span>
+            </li>
+            <li class="form-row">
+                <label for="website">Website:</label>
+                <input type="url" id="website" name="website" placeholder="https://johndoe.com/" required>
+                <span class="form_hint">Proper format "https://yourdomain.com"</span>
+            </li>
+            <li class="form-row">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" cols="40" rows="6" required></textarea>
+            </li>
+            <li class="form-row">
+                <button class="submit" type="submit">Submit Form</button>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
